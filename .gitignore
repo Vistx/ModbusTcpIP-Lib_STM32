@@ -23,6 +23,7 @@ project.fragment.lock.json
 # STM32CubeIDE / Eclipse
 *.launch
 .settings/language.settings.xml
+.metadata
 
 # Build output
 Debug/
@@ -39,3 +40,4 @@ Release/
 # OS-specific
 .DS_Store
 Thumbs.db
+Example Bluepill/Bluepill_ModbusTCPIP/.settings/language.settings.xml
