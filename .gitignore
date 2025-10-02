@@ -1,0 +1,41 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Logs & caches
+*.log
+*.cache
+*.pdb
+*.dbmdl
+*.jfm
+
+# STM32CubeIDE / Eclipse
+*.launch
+.settings/language.settings.xml
+
+# Build output
+Debug/
+Release/
+*.elf
+*.map
+*.o
+*.d
+*.list
+
+# CubeMX generated backup files
+*.mxproject
+
+# OS-specific
+.DS_Store
+Thumbs.db
