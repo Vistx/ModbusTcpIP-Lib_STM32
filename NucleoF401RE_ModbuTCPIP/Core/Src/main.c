@@ -96,8 +96,8 @@ int main(void)
   /* USER CODE BEGIN 2 */
   Ethernet_Config_t w5500_cfg = {
           .hspi = &hspi3,
-          .cs_port = GPIOB,  .cs_pin = GPIO_PIN_7,
-          .rst_port = GPIOC , .rst_pin = GPIO_PIN_2,
+          .cs_port = GPIOB,  .cs_pin = GPIO_PIN_7,     //Configured pins in CubeMX
+          .rst_port = GPIOC , .rst_pin = GPIO_PIN_2,//Configured pins in CubeMX
           .mac = {0x00,0x08,0xDC,0x01,0x02,0x03},
           .ip  = {192,168,0,129},
           .gw  = {192,168,0,1},
